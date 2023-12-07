@@ -537,8 +537,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__content {
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
+    padding: 2em;
 }
 
 @media(max-width: 900px) {
@@ -548,9 +548,9 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-.about__photo-container {
+/* .about__photo-container {
     margin-bottom: var(--gutter-normal);
-}
+} */
 
 @media(min-width: 901px) {
     .about__text {
